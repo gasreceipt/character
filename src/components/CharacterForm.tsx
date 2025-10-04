@@ -137,7 +137,7 @@ export default function CharacterForm({
           rows={4}
         />
         <p className="text-xs text-gray-500 mt-1">
-          Example: "Set in Victorian London" or "Has a mysterious past" or "Works as a space engineer"
+          Example: &quot;Set in Victorian London&quot; or &quot;Has a mysterious past&quot; or &quot;Works as a space engineer&quot;
         </p>
       </div>
 

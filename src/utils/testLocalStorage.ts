@@ -41,7 +41,7 @@ function testLocalStorage() {
 
 // Export for console use
 if (typeof window !== 'undefined') {
-  (window as any).testLocalStorage = testLocalStorage;
+  (window as unknown as Record<string, unknown>).testLocalStorage = testLocalStorage;
 }
 
 export default testLocalStorage;

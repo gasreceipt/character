@@ -161,7 +161,7 @@ export default function GeneratePage() {
                     </svg>
                   </div>
                   <p className="text-lg mb-2">Ready to create your character?</p>
-                  <p className="text-sm">Fill out the form and click "Generate Character" to get started</p>
+                  <p className="text-sm">Fill out the form and click &quot;Generate Character&quot; to get started</p>
                 </div>
               )}
             </div>

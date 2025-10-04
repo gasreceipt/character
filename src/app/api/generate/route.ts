@@ -131,7 +131,7 @@ export async function POST(request: NextRequest) {
 
     if (stream) {
       // Streaming JSON chunks (you can parse incrementally client-side)
-      const streamResult = await gModel.generateContentStream({ contents: userInput as any });
+      const streamResult = await gModel.generateContentStream({ contents: userInput });
       const encoder = new TextEncoder();
 
       const readable = new ReadableStream({
@@ -156,7 +156,7 @@ export async function POST(request: NextRequest) {
       });
     }
 
-    const result = await gModel.generateContent({ contents: userInput as any });
+    const result = await gModel.generateContent({ contents: userInput });
     const raw = result.response?.text();
     if (!raw) throw new Error('Empty model response');
 
@@ -195,9 +195,9 @@ export async function POST(request: NextRequest) {
 
     return NextResponse.json(merged, { status: 200 });
 
-  } catch (err: any) {
+  } catch (err: unknown) {
     // Never leak internals
-    console.error('Character gen error:', err?.message ?? err);
+    console.error('Character gen error:', err instanceof Error ? err.message : err);
     return NextResponse.json(
       { error: 'Failed to generate character' },
       { status: 500 }

@@ -20,8 +20,8 @@ An AI-powered character generation platform that creates detailed, unique charac
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/character-forge.git
-cd character-forge
+git clone https://github.com/gasreceipt/character.git
+cd character
 npm install
 ```
 
@@ -88,7 +88,7 @@ Open [http://localhost:3000](http://localhost:3000) and start creating character
 
 ### Deploy to Vercel (Recommended)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/YOUR-USERNAME/character-forge)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/gasreceipt/character)
 
 1. Click the deploy button above
 2. Connect your GitHub account
@@ -163,7 +163,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you have any questions or need help:
 
-1. Check the [Issues](https://github.com/YOUR-USERNAME/character-forge/issues) page
+1. Check the [Issues](https://github.com/gasreceipt/character/issues) page
 2. Create a new issue if your question isn't answered
 3. For urgent matters, reach out via email
 

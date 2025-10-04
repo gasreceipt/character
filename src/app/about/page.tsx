@@ -29,7 +29,7 @@ export default function AboutPage() {
                 AI technology accessible to creators, businesses, and individuals worldwide.
               </p>
               <p className="text-lg leading-relaxed">
-                Whether you're a blogger struggling with writer's block, a small business owner 
+                Whether you&apos;re a blogger struggling with writer&apos;s block, a small business owner 
                 needing marketing copy, or a content creator looking to scale your output, 
                 our platform empowers you to create compelling content effortlessly.
               </p>
@@ -43,7 +43,7 @@ export default function AboutPage() {
               <div>
                 <h3 className="text-xl font-semibold text-blue-600 mb-4">Google Gemini 2.5 Flash</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Our platform leverages Google's most advanced language model, Gemini 2.5 Flash, 
+                  Our platform leverages Google&apos;s most advanced language model, Gemini 2.5 Flash, 
                   which delivers exceptional performance in understanding context, maintaining 
                   consistency, and generating human-like content across various formats and styles.
                 </p>
