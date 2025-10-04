@@ -36,9 +36,9 @@ export default function RootLayout({
         <footer className="bg-gray-900 text-white py-12">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h3 className="text-xl sm:text-2xl font-bold mb-4">Character Forge</h3>
-            <p className="text-gray-400 mb-6 text-sm sm:text-base">
-              Powered by Google&apos;s Gemini 2.5 Flash • Built with Next.js & TypeScript
-            </p>
+                    <p className="text-sm text-gray-600">
+          © 2024 Character Forge. Powered by Google&apos;s advanced AI technology.
+        </p>
             <div className="flex flex-col sm:flex-row justify-center space-y-2 sm:space-y-0 sm:space-x-6">
               <Link href="/" className="text-gray-400 hover:text-white transition-colors">Home</Link>
               <Link href="/generate" className="text-gray-400 hover:text-white transition-colors">Generate</Link>
